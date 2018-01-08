@@ -231,3 +231,28 @@ transition: 1s ease;
     overflow-x: hidden;
     overflow-y: scroll;
 }
+/*walidacja*/
+.wrong{
+    border:3px solid #ad142e;
+    border-radius: 2px;
+}
+.correct{
+    border:3px solid #14ad35;
+    border-radius: 2px;
+}
+
+.mark-ok{
+    color:#14ad35;
+
+}
+
+.mark-wrong{
+    color:#ad142e;
+}
+.mark{
+    background-color: inherit;
+}
+.comment{
+    position: absolute;
+    transform: translateY(5px);
+}
