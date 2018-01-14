@@ -1,0 +1,396 @@
+body{
+background-color: #543837;
+background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+margin-bottom: 10vh;
+margin-top: 5vh;
+}
+
+.container{
+  background-color: #111010;
+  box-shadow: 0px 0px 130px 130px #111010;
+  opacity: 0.99;
+    border: 3px solid #111010;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.navbar{
+    width: 100vw;
+    
+}
+
+#article1 .box{
+  float: left;
+}
+
+#article2 .box{
+  float: right;
+}
+
+
+/*--image styles-*/
+
+.a1{
+    
+    margin: 10px;
+  box-shadow: 0px 0px 30px 10px black;
+ 
+
+}
+
+   @media only screen and (max-width: 768px) {
+    .a1{
+        display:none;
+       }}
+
+.a2{
+ 
+    margin: 10px;
+  box-shadow:inset 0px 0px 50px 70px #111010;
+
+}
+
+       @media only screen and (max-width: 768px) {
+    .a2{
+        display:none;
+           }}
+ 
+        
+.img-fluid{
+width: 100%;
+  height: auto;
+}
+
+.b1{ 
+    width: 100%;
+    height: auto;
+}
+
+        @media only screen and (max-width: 768px) {
+    .b1{ width:auto;
+         
+        
+        
+            }}
+
+/*--carusel-*/
+
+.carousel{
+  width: 100%;
+  height: auto;
+  box-shadow:inset 0px 0px 50px 70px #111010;
+}
+
+@media only screen and (max-width: 768px) {
+    .carousel{
+        box-shadow:inset 0px 0px 20px 20px #111010;
+    }
+}
+
+.carousel-item{
+  width: 100%;
+  height: auto;
+    z-index: 1042;
+}
+
+
+/*--typography--*/
+
+h1{
+  font-family: 'Fjalla One', sans-serif;
+  text-shadow: 0px 0px 3px beige;
+}
+
+
+h2{
+  font-family: 'Fjalla One', sans-serif;
+    color: beige;
+  text-shadow: 0px 0px 3px red;
+}
+
+h3{
+  color: beige;
+  text-shadow: 0px 0px 2px red;
+  
+}
+
+.caption1{
+  position: absolute;
+  color: white;
+  text-shadow: 0px 0px 4px red;
+  font-family: 'Fjalla One', sans-serif;   
+    font-size: 2em;
+}
+
+.p1{
+  color: white;
+  text-shadow: 0px 0px 2px darkred;
+}
+
+.p1 label{
+margin: 0;
+}
+
+a{
+  color: white;
+  text-shadow: 0px 0px 3px darkred;
+}
+
+a:hover{
+  Color: darkred;
+    text-shadow: 0px 0px 3px white;
+}
+
+hr { border: 0; height: 1px; background: #333; background-image: linear-gradient(to right, #111010, darkred, #111010);
+}
+
+
+a.page-link{
+    background-color: #111010;
+    border-color: black;
+    color: white;
+}
+
+.page-item.active .page-link {
+    background-color: darkred;
+    border-color: black;
+}
+
+.page-item.disabled .page-link {
+    background-color: #111010;
+    border-color: black;
+}
+
+.nav-item {
+            margin: 0px 20px;
+        }
+.dropdown:hover>.dropdown-menu {
+            display: block;
+        }
+   
+    @media screen and (max-width: 480px) {
+.foot{
+display:none;
+        }
+}
+.card-footer{
+        padding: 0;
+        display: inline-block;
+        background-color: rgba(52, 58, 64,0.5);
+        height:7vh;
+}
+
+.foot{
+}
+
+/*modale*/
+.btn-modal{
+	transform: rotate(90deg);
+    left: -50px;
+    top: 60vh;
+    position: fixed;
+    
+}
+
+.modal-header,.modal-footer{
+	background-color: #543837;
+	color:snow;
+}
+
+/*galeria*/
+
+.gallery-list li {
+	margin-left: -3px;
+}
+
+.gallery-list li a img {
+	cursor: pointer;
+	transition: 1s ease;
+}
+
+.gallery-list li a img:hover {
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+	transition: 1s ease;
+}
+
+.img-list {
+	width: 100px;
+	height: 100px;
+}
+
+.img-carousel {
+	width: 100%;
+	margin-bottom: 50px;
+	height: 400px;
+	border-radius: 10px;
+
+}
+
+.list-gallery-box {
+	height: 200px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.carousel-nav-next {
+	transform: translateX(70px);
+}
+
+.carousel-nav-prev {
+	transform: translateX(-70px);
+}
+
+.btn-fullscreen {
+	position: absolute;
+	right: 3vw;
+	top: 370px;
+	z-index: 100000;
+}
+.modal-img-size{
+}
+/*walidacja*/
+.wrong{
+    border:3px solid #ad142e;
+    border-radius: 2px;
+}
+.correct{
+    border:3px solid #14ad35;
+    border-radius: 2px;
+}
+
+.mark-ok{
+    color:#14ad35;
+
+}
+
+.mark-wrong{
+    color:#ad142e;
+}
+.mark{
+    background-color: inherit;
+}
+.comment{
+    position: absolute;
+    transform: translateY(5px);
+}
+/*Collapsable tables*/
+
+#accordion{
+    margin-top: 50px;
+}
+
+#headingone  {
+   background-image: url("../img/1.jpeg"); 
+}
+
+#headingTwo  {
+   background-image: url("../img/2.jpeg");
+}
+
+#headingThree  {
+   background-image: url("../img/3.jpeg"); 
+}
+#headingfour  {
+   background-image: url("../img/1.jpeg");
+  
+}
+#headingfive {
+   background-image: url("../img/3.jpeg");
+ 
+}
+#headingsix {
+   background-image: url("../img/2.jpeg");
+}
+  
+#accordion .collapse {
+    background-color: #111010;
+}
+#accordion .collapse .show {
+    background-color: #111010;
+}
+.collapsing {
+    background-color: #111010;
+}
+/*animacje*/
+.slideInDown {
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes slideInDown {
+  0% {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  }
+  }
+  @keyframes slideInDown {
+  0% {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  }
+  } 
+
+.slideInUp {
+  -webkit-animation-name: slideInUp;
+  animation-name: slideInUp;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes slideInUp {
+  0% {
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  }
+  }
+  @keyframes slideInUp {
+  0% {
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  }
+  } 
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  }
+  @keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  } 
