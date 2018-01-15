@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
 
-
+<!-- Skrypt "Zaluzji"   -->
     <script> 
     $(document).ready(function(){
         $("#curtain").click(function(){
@@ -21,7 +21,26 @@
             $("#curtain_bar").slideUp(20*60);
         });
     });
-    </script>
+     </script>
+<!-- Blokada Scrollowania       -->
+    <script> 
+        $('html, body').css({
+    overflow: 'hidden',
+    height: '100%'
+        });
+     </script>       
+<!--   Odblokowanie Scrollowania -->
+        <script> 
+          $(document).ready(function(){   
+        $("#curtain").click(function(){
+        $('html, body').css({
+    overflow: 'auto',
+    height: 'auto'
+      });
+                });
+              });
+
+     </script>   
     </head>
     <body>
         
@@ -30,6 +49,7 @@
   <div class="curtain" id="curtain">
         <div class="curtain_mid">
             <img src="img/logo.png"/>
+            <img src="img/kliknij.png" class="kliknij" data-toggle="tooltip" title="Albo gdziekolwiek!"/>
             <h4>
                 <hr>
                 ul.Grobla 13
@@ -52,7 +72,7 @@
     <!--nav-->
         <nav class="slideInDown navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <a class="navbar-brand" href="#">
-            LOGO
+            <img src="img/sprint.png" height="35"/>
         </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -70,7 +90,7 @@
                             <a class="dropdown-item" href="./subpages/dropdown-subpages/Drzwizewnetrzne.html"><i class="fas fa-arrow-right"></i>Drzwi zewnetrzne</a>
                             <a class="dropdown-item" href="./subpages/dropdown-subpages/Drzwiwewnetrzne.html"><i class="fas fa-arrow-right"></i>Drzwi wewnetrzne</a>
                             <a class="dropdown-item" href="./subpages/dropdown-subpages/Oknapcv.html"><i class="fas fa-arrow-right"></i>Okna PCV</a>
-                            <a class="dropdown-item" href="./Oknaaluminiowe.html"><i class="fas fa-arrow-right"></i>Okna Aluminiowe</a>
+                            <a class="dropdown-item" href="./subpages/dropdown-subpages/Oknaaluminiowe.html"><i class="fas fa-arrow-right"></i>Okna Aluminiowe</a>
                             <a class="dropdown-item" href="./subpages/dropdown-subpages/Bramy.html"><i class="fas fa-arrow-right"></i>Bramy</a>
                             <a class="dropdown-item" href="./subpages/dropdown-subpages/Rolety.html"><i class="fas fa-arrow-right"></i>Rolety</a>
                             <a class="dropdown-item" href="./subpages/dropdown-subpages/Markizy.html"><i class="fas fa-arrow-right"></i>Markizy</a>
@@ -83,10 +103,10 @@
                         <a class="nav-link" href="./subpages/kontakt.html"><i class="fas fa-phone"></i> Kontakt</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./subpages/blog.html"><i class="far fa-edit"></i> Blog</a>
+                        <a class="nav-link" href="./subpages/blog.html"><i class="far fa-edit"></i> Smart-Okno</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./subpages/przymierzalnia.html"><i class="far fa-building"></i> Przymierzalnia</a>
+                        <a class="nav-link" href="./subpages/przymierzalnia.html"><i class="far fa-building"></i> Wizualizacja</a>
                     </li>
                 </ul>
             </div>
@@ -136,13 +156,21 @@
                  
                 
             </div>
+        
+            <div class="row">
+            <div class="col-12">
+                <img src="img/smartwindow.jpg" class="smokno"/>
+                <hr>
+            </div>
+            </div>
 
             <!--article1-->
             <div class="row">
                 <div class="col-md-4 text-left">
+                    <img src="img/strengths-ico-3.png">
                     <hr>
                     <h2>Okna Smart</h2>
-                    <p class="p1"> Wszelkiej pomyślności oraz spełnienia najskrytszych marzeń, dużo zdrowia, optymizmu i powodzenia zarówno w życiu prywatnym jak i zawodowym, wszystkiego co najlepsze w nadchodzącym Nowym Roku 2018 składają … Kolejny Sylwester lecz życzenia te same - byś w przyszłym roku zbudował zamek, byś miał sto koni i sto samochodów, byś nigdy do płaczu nie miał powodów. Zbliżający się Nowy Rok niesie wszystkim nadzieję na uspokojenie, życzliwość i spełnienie marzeń. W te piękne i jedyne w roku chwile, chcę złożyć najlepsze życzenia pogodnych, zdrowych i radosnych dni, bogatego Gwiazdora i szczęśliwego Nowego Roku.
+                    <p class="p1"> SmartWindow doskonale wpisuje się w ideę inteligentnego budownictwa propagowaną na całym świecie. Rewolucyjne okno jest kompatybilne z innymi systemami i urządzeniami IoT w domu. Sprint kilka miesięcy temu zaoferował Klientom możliwość tworzenia inteligentnych systemów pozwalających na zdalne sterowanie stolarką. To był tylko pierwszy krok w kierunku innowacyjnych technologii. Nowy produkt idealnie integruje się z dotychczas oferowanymi przez firmę elementami inteligentnego domu Tahoma czy Maco poprzez wsparcie dla panelu sterowania, który to wyświetlony jest wprost na oknie. Dzięki temu klient nie potrzebuje żadnych dodatkowych urządzeń, aby sterować swoim domem, co zapewnia pełną kontrolę dostępu i bezpieczeństwo dla całej rodziny. Takie rozwiązanie stwarza również lepsze możliwości zarządzania czasem i przestrzenią w domu.
                     </p>
                     <hr>
                 </div>
@@ -152,6 +180,7 @@
 
 
                 <div class="col-md-4 text-center">
+                    <img src="img/strengths-ico-6.png">
                     <hr>
                     <h2>- Technologia Przyszlosci -</h2>
                     <p class="p1"> Sprint wprowadził na rynek innowacyjny produkt na miarę przyszłości. Nowe interaktywne okno pozwalające na prezentację treści multimedialnych to rewolucja na światowym rynku stolarki okienno-drzwiowej. Firma stworzyła pierwsze inteligentne okno, które poza swoimi standardowymi funkcjami oferuje możliwość oglądania telewizji, korzystania z Internetu i pracy na panelu bezdotykowym. Swoim innowacyjnym rozwiązaniem Drutex wpisuje się w światowy trend rozwiązań z zakresu IoT (Internet of Things).
@@ -162,19 +191,15 @@
                 <!--article3-->
 
                 <div class="col-md-4 text-right">
+                    <img src="img/strengths-ico-5.png">
                     <hr>
                     <h2>Pełna Kompatybilność</h2>
-                    <p class="p1">Do okna można podłączyć pendrive lub dysk przenośny z danymi multimedialnymi, klawiaturę  oraz myszkę. Istnieje również opcja wykorzystania domowej sieci komputerowej celem podłączenia okna do Internetu, co stwarza zupełnie nowe możliwości funkcjonalne okna. Od dziś oglądanie filmów z YouTube, galerii zdjęć czy przeglądanie informacji w popularnych kanałach internetowych podczas codziennych czynności takich jak gotowanie, przeglądanie maili, czy oglądanie ulubionych programów i seriali  na oknie, stało się rzeczywistością. Drutex stworzył okno, które zastępuje funkcje telewizji, tabletu czy narzędzia do pracy. To również możliwość wykorzystania wirtualnych żaluzji czy markiz chroniących przed światłem i zaciemniających pomieszczenia dla jeszcze większego komfortu użytkowników.
+                    <p class="p1">Do okna można podłączyć pendrive lub dysk przenośny z danymi multimedialnymi, klawiaturę  oraz myszkę. Istnieje również opcja wykorzystania domowej sieci komputerowej celem podłączenia okna do Internetu, co stwarza zupełnie nowe możliwości funkcjonalne okna. Od dziś oglądanie filmów z YouTube, galerii zdjęć czy przeglądanie informacji w popularnych kanałach internetowych podczas codziennych czynności takich jak gotowanie, przeglądanie maili, czy oglądanie ulubionych programów i seriali  na oknie, stało się rzeczywistością. Sprint stworzył okno, które zastępuje funkcje telewizji, tabletu czy narzędzia do pracy. To również możliwość wykorzystania wirtualnych żaluzji czy markiz chroniących przed światłem i zaciemniających pomieszczenia dla jeszcze większego komfortu użytkowników.
                     </p>
                     <hr>
                 </div>
             </div>
-           
-         <div class="row">
-                <div class="col-8 offset-2">
-                    <img src="img/smartwindow.jpg" class="a1">
-             </div>
-        </div>
+       
         
         
         <!--Strony z ktorymi wspolpracujemy-->
