@@ -16,3 +16,10 @@ $(window).scroll(function(){
   if (scroll >= 100) sticky.addClass('fixed');
   else sticky.removeClass('fixed');
 });
+
+
+function fullscreen(){
+var current = $(".active").attr("id");
+	console.log(current);
+	$("#modal-img").html("<img class='img-fluid' src='../img/img-gallery-carousel/"+current+".jpg'>")
+}

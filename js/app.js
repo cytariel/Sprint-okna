@@ -1,6 +1,6 @@
 //<!-- skrypt szybkosci zmiany slajdow w karuzeli -->
 $('.carousel').carousel({
-    interval: 100;
+    interval:5000
 })
 
 //    <!-- skrypt do określania aktywnego linku poprzez dodanie klasy active -->
