@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sprint</title>
+    <meta name="description" content="Strona Firmy">
+    <meta name="author" content="...">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="css/jscolor.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+    $("#oknobttn").click(function(){
+    $("#drzwi").hide();
+    $("#okno").show();
+   });
+});
+    </script>
+
+        <script>
+        $(document).ready(function(){
+    $("#drzwibttn").click(function(){
+    $("#okno").hide();
+    $("#drzwi").show();
+   });
+});
+    </script>
+  
+</head>
+<body>
+    
+    <div>
+        <img src="sciana2.png" class="sciana" id="sciana">
+    </div>
+    
+   <div>
+        <img src="podloga1.png" class="podloga">
+    </div>
+    
+    <div>
+        <img src="OKNO1.png" class="okno" id="okno">
+    </div>
+    
+    <div>
+        <img src="drzwi1.png" class="drzwi" id="drzwi">
+    </div>
+    
+    <div class="custom">
+<button id="oknobttn">Okno</button>       
+        
+<button id="drzwibttn">Drzwi</button> 
+
+<button class="jscolor
+    {valueElement:'null',styleElement:'okno',value:'ff6699'}"
+    style="border:2px solid black; width:50px; height:20px;">
+</button>
+        
+<button class="jscolor
+    {valueElement:'null',styleElement:'drzwi',value:'ff6699'}"
+    style="border:2px solid black; width:50px; height:20px;">
+</button>
+    
+    </div>    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>
