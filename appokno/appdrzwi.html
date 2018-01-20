@@ -12,24 +12,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="css/jscolor.js"></script>
   
-    <script>
-        $(document).ready(function(){
-    $("#oknobttn").click(function(){
-    $("#drzwi").hide();
-    $("#oknod").hide();
-    $("#drzwid").hide();     
-    $("#okno").show();
-   });
-});
-    </script>
 
         <script>
         $(document).ready(function(){
     $("#drzwibttn").click(function(){
-    $("#okno").hide();
-    $("#oknod").hide();
-    $("#drzwid").hide();    
+    $("#drzwid").hide(); 
+    $("#colordd").hide();    
     $("#drzwi").show();
+    $("#colord").show();    
    });
 });
     </script>
@@ -37,25 +27,36 @@
         <script>
         $(document).ready(function(){
     $("#drzwidbttn").click(function(){
-    $("#okno").hide();
-    $("#oknod").hide();
-    $("#drzwid").show();    
+    $("#drzwid").show(); 
+    $("#colordd").show();
     $("#drzwi").hide();
+    $("#colord").hide(); 
    });
 });
     </script>
   
-            <script>
+                <script>
         $(document).ready(function(){
-    $("#oknodbttn").click(function(){
-    $("#okno").hide();
-    $("#oknod").show();
-    $("#drzwid").hide();    
-    $("#drzwi").hide();
+    $("#drzwibttn1").click(function(){
+    $("#drzwid").hide(); 
+    $("#colordd").hide();    
+    $("#drzwi").show();
+    $("#colord").show();    
    });
 });
-                
     </script>
+
+        <script>
+        $(document).ready(function(){
+    $("#drzwidbttn1").click(function(){
+    $("#drzwid").show(); 
+    $("#colordd").show();
+    $("#drzwi").hide();
+    $("#colord").hide(); 
+   });
+});
+    </script>
+    
 </head>
 <body>
     
@@ -63,36 +64,12 @@
         <div class="row">
             <div class="col-xl-6 col-lg-8 col-md-10 col-sm-12">
                 
-                <div class="card text-center">
-  <div class="card-header">
-    <ul class="nav nav-tabs card-header-tabs">
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Active</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-  </div>
-  <div class="card-block">
-    <h4 class="card-title">Special title treatment</h4>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
                 <div>
                     <img src="sciana2.png" class="sciana" id="sciana">
                 </div>
 
                <div>
                     <img src="podloga1.png" class="podloga">
-                </div>
-
-                <div>
-                    <img src="OKNO1.png" class="okno" id="okno">
                 </div>
 
                 <div>
@@ -104,49 +81,111 @@
                 </div>
                 
                 <div>
-                    <img src="okno%20drewno.png" class="oknod" id="oknod">
+                    <img src="kwiat.png" class="roslinka" id="roslinka">
                 </div>
                 
                 <div>
-                    <img src="ROSLINKA.png" class="roslinka" id="roslinka">
+                    <img src="kwiat1.png" class="roslinka2" id="roslinka23">
                 </div>
                 
-                <div>
-                    <img src="roslinka3.png" class="roslinka2" id="roslinka23">
-                </div>
-                
-                <div class="rolety">
-                    <img src="prawa%20roletka.png" class="proleta" id="proleta">
-                    <img src="prawa%20roletka.png" class="lroleta" id="lroleta">
-                </div>
                 </div>
         </div>
         
-        <div class="row" id="dol">
-                <div class="col-12">
-                    <button class="btn btn-secondary" id="oknobttn">Okno</button>       
-
-                    <button class="btn btn-secondary" id="drzwibttn">Drzwi</button> 
+        <div id="w991">
+        <div class="row align-items-end">
+               
+                <div class="col-6 offset-6">
                     
-                    <button class="btn btn-secondary" id="oknodbttn">Okno Drewniana Okleina</button>       
-
-                    <button class="btn btn-secondary" id="drzwidbttn">Drzwi Drewniana Okleina</button> 
-
-                    <button class="jscolor
-                        {valueElement:'null',styleElement:'okno',value:'ff6699'}"
-                        style="border:2px solid black; width:50px; height:20px;">
+                    <div class="card" style="width: 20rem;">
+                        <div class="card-block">
+                            <h6 class="card-title">Wybierz Element</h6>
+                                <button class="btn btn-secondary" id="drzwibttn">PCV</button>       
+                                <button class="btn btn-secondary" id="drzwidbttn">Drewno</button> 
+                            
+                        </div>
+                    </div>  
+                    <br>
+                </div>   
+        </div>
+        
+        <div class="row align-items-end">
+                <div class="col-6 offset-6">
+                     <div class="card" style="width: 20rem;">
+                        <div class="card-block">
+                            <h6 class="card-title">Wybierz Kolor</h6>
+                    <button class="btn btn-secondary jscolor
+                        {valueElement:'null',styleElement:'drzwi',value:'ffffff'}"
+                        id="colord"> Drzwi
                     </button>
 
-                    <button class="jscolor
-                        {valueElement:'null',styleElement:'drzwi',value:'ff6699'}"
-                        style="border:2px solid black; width:50px; height:20px;">
+                    <button class="btn btn-secondary jscolor
+                        {valueElement:'null',styleElement:'drzwid',value:'ffffff'}"
+                        id="colordd"> Drzwi
                     </button>
+                            
+                    <button class="btn btn-secondary jscolor
+                        {valueElement:'null',styleElement:'sciana',value:'#a2a8b2'}"
+                        > Sciana
+                    </button>
+                              </div>
+                    </div>
                 </div>
             </div>
-         </div>  
-      
-    
-    
+        </div>
+         
+     <div id="w990">
+        <div class="row">
+               
+                <div class="col-12">
+                    
+                    <div class="card">
+                        <div class="card-block">
+                            <h6 class="card-title">Wybierz Element</h6>
+                                <button class="btn btn-secondary" id="drzwibttn1">PCV</button>       
+                                <button class="btn btn-secondary" id="drzwidbttn1">Drewno</button> 
+                            
+                        </div>
+                    </div>  
+                    <br>
+                </div>   
+        </div>
+        
+                <div class="row">
+                <div class="col-12">
+                     <div class="card">
+                        <div class="card-block">
+                            <h6 class="card-title">Wybierz Kolor</h6>
+                    <button class="btn btn-secondary jscolor
+                        {valueElement:'null',styleElement:'okno',value:'ffffff'}"
+                        id="coloro"> Okno
+                    </button>
+
+                    <button class="btn btn-secondary jscolor
+                        {valueElement:'null',styleElement:'oknod',value:'ffffff'}"
+                        id="colorod"> Okno
+                    </button>
+                    
+                      <button class="btn btn-secondary jscolor
+                        {valueElement:'null',styleElement:'proleta',value:'#92a8b2'}"
+                        > Prawa Roleta
+                    </button>
+                    
+                           <button class="btn btn-secondary jscolor
+                        {valueElement:'null',styleElement:'lroleta',value:'#92a8b2'}"
+                                   >
+                         Lewa Roleta
+                    </button>
+                            
+                             <button class="btn btn-secondary jscolor
+                        {valueElement:'null',styleElement:'sciana',value:'#a2a8b2'}"
+                        > Sciana
+                    </button>
+                              </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
     
     
 </body>

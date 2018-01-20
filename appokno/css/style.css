@@ -27,7 +27,7 @@ body{
     z-index: 2;
     background-color: burlywood;
     box-shadow: 0px 0px 10px dimgray;
-    display: none;
+  
     
 }
 
@@ -46,7 +46,7 @@ body{
     margin-top: 60%;
     left: 2%;
     height: auto;
-    width:18%;
+    width:22%;
     z-index: 2;
     
 }
