@@ -33,7 +33,7 @@ body{
 
 .roslinka{
     position: absolute;
-    margin-top: 45%;
+    margin-top: 43%;
     left: 58%;
     height: auto;
     width:30%;
@@ -44,7 +44,7 @@ body{
 .roslinka2{
     position: absolute;
     margin-top: 60%;
-    left: -2%;
+    left: 2%;
     height: auto;
     width:18%;
     z-index: 2;
