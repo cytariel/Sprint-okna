@@ -116,6 +116,10 @@ body{
     display: none;
 }
 
+#colordd{
+    display: none;
+}
+
 .btn-secondary{
     margin:  2px;
 }
