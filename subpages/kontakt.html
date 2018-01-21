@@ -12,10 +12,10 @@
     <link rel="stylesheet" href="../css/style.css">
 
     <body>
-        <div class="container-fluid">
-           		<!--nav-->
-		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top slideInDown">
-			<a class="navbar-brand" href="#">
+        <!-- Navigation -->
+        <div class="container-fluid-lg">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top slideInDown">
+			<a class="navbar-brand" href="../index.html">
             <img src="../img/sprint.png" height="35"/>
         </a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,12 +24,11 @@
 			<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
 				<ul class="navbar-nav ">
 					<li class="nav-item">
-						<a class="nav-link" href="../index.html"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="../index.html"><i class="fas fa-home"></i> <span class="nav-text">Home</span></a>
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="okna-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fa fa-file"></i> Oferta 
-                  </a>
+                                <i class="fa fa-file"></i> <span class="nav-text">Oferta</span></a>
 						<div class="dropdown-menu" aria-labelledby="okna-link">
 							<a class="dropdown-item" href="./dropdown-subpages/Drzwizewnetrzne.html"><i class="fas fa-arrow-right"></i>Drzwi zewnetrzne</a>
 							<a class="dropdown-item" href="./dropdown-subpages/Drzwiwewnetrzne.html"><i class="fas fa-arrow-right"></i>Drzwi wewnetrzne</a>
@@ -41,17 +40,21 @@
 						</div>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./galeria.html"><i class="fas fa-images"></i> Galeria</a>
-					</li>
-					<li class="nav-item  active">
-						<a class="nav-link" href="./kontakt.html"><i class="fas fa-phone"></i> Kontakt</a>
+						<a class="nav-link" href="./galeria.html"><i class="fas fa-images"></i><span class="nav-text">Galeria</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./blog.html"><i class="far fa-edit"></i> Smart-Okna</a>
+						<a class="nav-link active" href="./kontakt.html"><i class="fas fa-phone"></i> <span class="nav-text">Kontakt</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./przymierzalnia.html"><i class="far fa-building"></i> Wizualizacja</a>
+						<a class="nav-link" href="./blog.html"><i class="far fa-edit"></i><span class="nav-text"> Smart-Okna</span></a>
 					</li>
+					<li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="okna-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="far fa-building"></i> <span class="nav-text">Wizualizacja</span></a>
+                                <div class="dropdown-menu" aria-labelledby="okna-link">
+                                    <a class="dropdown-item" href="./wizualizacja/wizualizacjadrzwi.html"><i class="fas fa-arrow-right"></i>Drzwi</a>
+                                    <a class="dropdown-item" href="./wizualizacja/wizualizacjaokno.html"><i class="fas fa-arrow-right"></i>Okno</a>
+                        </div>
 				</ul>
 			</div>
 		</nav>
@@ -60,12 +63,13 @@
         <div class="container fadeIn">
             <!-- MAPA -->
             <div class="row">
-                <div class="col-md-12 box">
+                <div class="col-md-12 box" style="margin-top:5%!important">
 
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2394.9181291709137!2d17.977154415829563!3d53.11166237993042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470313a9db7c4503%3A0xf4c7714a3eb4d444!2sGrobla+13%2C+Bydgoszcz!5e0!3m2!1spl!2spl!4v1515057368935" width="100%" height="350" frameborder="0" style="border:5" allowfullscreen></iframe>
 
                 </div>
             </div>
+       
             <!-- FORMULARZ     -->
             <div class="row">
                 <div class="col-sm-6 p1">
@@ -93,28 +97,32 @@
                     <div class="photo">
                         <h2>KONTAKT</h2>
                         <p class=p1> SPRINT <br> ul.Grobla 13 <br> 85-305 Bydgoszcz </p>
-                        <img src="./images/x.jpg" alt="firma">
+                        <img src="../img/firma.jpg" alt="firma" width="100%">
                     </div>
                 </div>
             </div>
+          </div>
 
             <!-- Button to Open the Modal -->
             <button type="button" class="btn btn-info btn-modal" data-toggle="modal" data-target="#wizytaModal">
  			 Umów wizytę!
 			</button>
-            <!--footer-->
-            <footer class="card-footer text-center fixed-bottom slideInUp">
-                <div class="row">
-                    <div class="col-3"><a href="#"><i class="fab fa-facebook-square"></i> <p class="foot">Polub nas!</p></a></div>
-                    <div class="col-3"><a href="#"><i class="fab fa-instagram"></i> <p class="foot">InstaDOOR!</p></a></div>
-                    <div class="col-3"><a href="#"><i class="fab fa-linkedin"></i> <p class="foot">Współpraca!</p></a></div>
-                    <div class="col-3"><a href="mailto:adres@strona.com"><i class="far fa-envelope"></i> <p>Napisz!</p></a></div>
-                </div>
-            </footer>
-
-
-        </div>
-        <!--container-->
+      <!--footer-->
+    <footer class="card-footer text-left fixed-bottom slideInUp">
+            <div class="row ">
+                <div class="offset-7"></div>
+                <div class="col-1">
+                    <a href="https://www.facebook.com/Sprint-okno-na-świat-1943138472670756"><i class="fab fa-2x fa-facebook-square"></i></a></div>
+                <div class="col-1"><a href="#">
+                    <a href="https://www.instagram.com/sprintoknonaswiat/"><i class="fab fa-2x fa-instagram"></i></a></div>
+                <div class="col-1"><a href="#">
+                    <a href="https://www.linkedin.com/company/27169256/"><i class="fab fa-2x fa-linkedin"></i></a></div>
+                <div class="col-1">
+                    <a href="mailto:adres@strona.com"><i class="far fa-2x fa-envelope"></i> </a></div>
+                    <div class="offset-1"></div>
+            </div>
+              
+        </footer>
         <!-- Modal Wizyty -->
         <div class="modal fade" id="wizytaModal">
             <div class="modal-dialog modal-lg">
@@ -186,7 +194,7 @@
         <script type="text/javascript" src="../js/jquery.min.js"></script>
         <script type="text/javascript" src="../js/popper.min.js"></script>
         <script type="text/javascript" src="../js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="../js/app-kontakt.js"></script>
+        <script type="text/javascript" src="../js/app.js"></script>
         <script type="text/javascript" src="../js/jquery.maskedinput.js"></script>
 
     </body>
