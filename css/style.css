@@ -11,7 +11,8 @@ background-image: url("https://www.transparenttextures.com/patterns/always-grey.
 .container {
     background: rgba(60, 60, 60, 0.99);
     box-shadow: 0px 0px 30px 60px rgba(60, 60, 60, 0.99);
-   
+    padding-top: 5%;
+    padding-bottom: 2%;
 }
 
 .front{
@@ -30,10 +31,12 @@ background: linear-gradient(to right, rgba(50,123,153,1) 0%,rgba(49,139,214,0.01
     position: absolute;
 }
 
+/*
 .bigocon{
      padding-top: 6%;
         padding-bottom: 2%;
 }
+*/
 
 .container-fluid {
     margin-top: 3vh;
@@ -178,7 +181,7 @@ h4 {
 .p1 {
     font-family: 'Lusitana', serif;
     color: white;
-    padding: 2px;
+    padding: 5px;
 }
 
 .lead{
@@ -707,4 +710,54 @@ modal-dialog {
     -ms-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
+}
+
+/*Smart okno*/
+
+#s1{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: auto;
+}
+
+#s2{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+
+}
+
+#s3{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+#s4{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+#s5{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+#s6{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: auto;
+    z-index: 1;
 }
