@@ -2,7 +2,6 @@
         var id_selector = $(this).attr("id");
         try {
             var id = /-(\d+)$/.exec(id_selector)[1];
-            console.log(id_selector, id);
             jQuery('#myCarousel').carousel(parseInt(id));
         } catch (e) {
             console.log('Regex failed!', e);
@@ -20,6 +19,26 @@ $(window).scroll(function(){
 
 function fullscreen(){
 var current = $(".active").attr("id");
-	console.log(current);
-	$("#modal-img").html("<img class='img-fluid' src='../img/img-gallery-carousel/"+current+".jpg'>")
+	$("#modal-img").html("<img class='img-fluid-gallery' src='../img/img-gallery-carousel/("+current+").jpg'>")
 }
+
+$(".thumbnail-rwd").click(function(){
+    var current = $(this).attr("id");
+    console.log("current: "+current);
+    var lastChar = current.slice(-2);
+    console.log(lastChar);
+    if(lastChar.startsWith("-")){
+       var finalchar = lastChar.slice(-1);
+        console.log("finalchar wielocyfrowy: "+finalchar);
+    }
+    else { var finalchar = lastChar;
+        console.log("finalchar jedno: "+finalchar);}
+    
+    
+	$("#modal-img").html("<img class='img-fluid-gallery' src='../img/img-gallery-carousel/("+finalchar+").jpg'>")
+    $("#galleryModal").modal(); 
+});
+
+$("#galleryModal").click(function(){
+    $("#galleryModal").modal('hide');
+});
