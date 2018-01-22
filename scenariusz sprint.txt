@@ -1,0 +1,34 @@
+<Ariel>
+	Nazywam sie Ariel Patyk, zaprezentuje dzisiaj strone, ktora przygotowalismy dla naszego klienta. Firmy Sprint zajmujacej sie sprzedaza okien drzwi oraz produktow i uslug pokrewnych. Oraz pierwszego w Polsce dystrybutora smart-okien! <pauza> Czym sa smart okna? Wkrotce odpowiem na to pytanie. ¯aluzja w góre! (klik)
+
+	W drodze kontaktu z naszym klientem - Bydgoska firma "Sprint" ustalilismy czego oczekuja od nich klienci, oraz jakie s¹ ich wymagania wobec strony, ktora ma reprezentowac ich wizerunek. (scrollowanie po indeksie)
+
+	(Przejscie na zakladke oferta, poklikanie pierdól.) G³ownym za³ozeniem projektu by³o umozliwieie potencjalnym klientom zapoznania sie z szeroka oferta firmy. Dlatego w³aœnie podzielilismy dostepne produkty na kategorie oraz producentów. W ka¿dej zakladce mozna zapoznac sie z oferta, przejrzec katalogi czy odwiedzic strony producentow. Natomiast dla produktu flagowego t.jest smart-okna zarezerowana jest oddzielna podstrona, ale o tym za chwile. A teraz Aleksander opowie troche o funkcjonalnosci strony.
+
+<Olek>
+	Nazywam sie Aleksander Piron, i chcialbym wam opowiedziec o mozliwosciach strony. Mozliwosciach, ktore daje ona wam, potencjalnym klientom. Na podstawie w³asnych badan podobnych stron bran¿owych, doszlismy do wniosku i¿ na ¿adnej z nich nie ma mo¿liwosci umówienia siê na wizyte przez internet. Dlaczego? Odpowiedz jest oczywista, aby uniknac g³upich ¿artów. Oto rozwi¹zanie. (Odpalic modal, zaczac wypelniac danymi). Zostawcie nam wiadomosc, my oddzwonimy, aby potwierdzic wizyte. Proste ale elganckie rozwiazanie.
+
+	(*TEGO NIE NARAZIE*) Rownie¿ na stronie g³ownej dostepny jest blog, na ktorym mozecie panstwo przeczytac o poradach i ciekawostkach dotyczacych okien. Dzieki wbudowanemu systemowi CMS, stworzonemu od podstaw. Nasz klient moze w prosty sposob dodawac, edytowac, i usuwaæ posty.
+	
+	(Przerwa) Celem ktory przyswiecal nam podczas projektowania interfejsu jest mo¿liwosc szybkiego kontaktu z kazdego miejsca na stronie, co zaowcowalo dobrze widoczn¹ stopk¹, dzieki której mo¿ecie skontaktowaæ siê bezposrednio ze sprzedawc¹ lub odwiedzic media spolecznosciowe i dowiedziec sie o najnowszych wydarzeniach, konkursach, nowych produktach i promocjach! A teraz zapraszam Pauline na scene.
+
+<Paulina>
+	Witam wszystkich, ja nazywam sie Paulina Adamowska i zajamowalam siê wizualnym aspektem witryny. (przejscie na landing page). Podczas projektowania witryny sklepu sprint kierowalismy sie sprawdzonymi zasadami. Dwa kontrastujace, jaskrawe kolory majace na celu przyciaganie uwagi w poszczegolnych sekcjach, sa doskonale widoczne na szarym tle. Nag³owki sa ustawione naprzemiennie tak aby przyciagac uwage z prawej do lewej. Natomiast dwie czcionki, szeryfowa i bezszeryowa, uzupelniaja sie wzajemnie.
+	
+	Przejdzmy do galerii. Galeria w wypadku sklepu, szczegolnie sklepu zajmujacego siê budowlanka wykonczeniow¹, spewnia bardzo konkretn¹ role. Mianowicie pozwala stwierdzic, jak dobrze zosta³a wykonana praca. Kto chce mieæ szpary pomiedzy ram¹ a parapetem, albo sciany, parapety i tapete upackane pianka monta¿ow¹. Na pewno, nie ja. <pauza> Teraz Tomasz opowie wam troche o wizualizacji.
+
+<Tomek>
+	Czesc wszystkim, nazywam sie Tomasz Sikora. W naszym nie wielkim zespole, sa dwie osoby, ktorych rodzice prowadza sklep z oknami. Sa to ludzie ktorzy codziennie odpowiadaja na pytania swoich klientow. Popytalismy wiec naszych bliskich, co ich zdaniem powinno znalezc sie na takiej witrynie. Ich odpowiedz? Mozliwosc podgladu kolorystki produktu na wlasnej scianie. A o to rozwiazanie. Aplikacja pozwalajaca na szybkie wybranie koloru poszczegolnych elementow aby stworzyc kompozycje. Czerwone drewniane okno na szarej scianie, czemu nie?
+	
+	A teraz pozwolcie ¿e opowiem wam troche wiecej o Smart-Oknie. W wielkim skrocie jest to matryca LCD zamknieta w szybie zespolonej by by³a chroniona od czynnikow zewnetrznych. Posiada ono ekran dotykowy, i jest kompatybilne z wiekszoscia sprzetu komputerowego. Jest takze wyosazone WIFI i Bluetooth. Ale co takie okno potrafi? Zapraszam na prezentacje. 
+
+-Ca³kowicie niweluje potrzebe montowania ¿aluzji lub roletki. Ka¿dego dnia inny kolor!.
+-Nudny krajobraz za oknem? Jeden dotyk i mieszkamy w nowym jorku, albo pod woda.
+-Nic nie stoi na przeszkodzie ¿eby sprawdzic swojego maila, poczytac gazete, lub sprawdzic prognzoze pogody przy porannej kawie.
+-Mo¿e obejrzec swoj ulubiony serial, albo zagrac w gre! Czemu nie, nawet jednoczesnie.
+-Smart-okna sa rownie¿ elementem wiekszege systemu jakim jest inteligenty dom. Zintegrowanie okna pozwala na kontrolowanie temperatury, swiatel, badz monitoringu w kazdym pokoju.
+
+<Ariel>
+	Pozwolcie ¿e zabiore glos jeszcze na moment, chcilbym podziekowac mojemu zespolowi. Aleksander Piron, zajmujacym siê funkcjonalosci¹ naszej strony. Maestro Javascript/Jquery/Php oraz Bootstrapa. Dzieki. Paulina Adamowska odopowiedzialna za warstwe wizualna i kaskadowe arkusze stylów, wirtuoz Adobe Photoshopa oraz Ilustratora, Dzieki. Tomasz Sikora, ktory podja³ siê wyzwania i stworzy³ od podstaw CMS-a w PhP, Bez niego blog nie móg³ by istnieæ. Dziêki. I jestem jeszcze ja Ariel Patyk Scrum Master, odpowiedzialny za kordynacje naszej grupy, skrypty JS, HTML i Bootstrapa. Dziekuje za uwage
+	
+	
