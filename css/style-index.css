@@ -4,8 +4,8 @@ body {
 background-color: #ffffff;
 background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
 */
-    background-color: #f8f8f8;
-    
+    background-image: url(../img/tlo1.png);
+
     background-size: cover;
 }
 
@@ -352,7 +352,6 @@ input ,textarea{
     cursor: pointer;
     transition: 1s ease;
     border: 2px black solid;
-    border-radius: 10px;
     
 }
 
