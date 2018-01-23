@@ -1,0 +1,34 @@
+<script src="./js/jquery.scrollify.js"></script>
+
+    <script>
+        $(function() {
+          $.scrollify({
+            section : ".panel",
+          });
+        });
+      </script>
+    
+    <script>
+              $.scrollify({
+    section : "section",
+    sectionName : "section-name",
+    interstitialSection : ".curtain",
+    easing: "easeOutExpo",
+    scrollSpeed: 1100,
+    offset : 0,
+    scrollbars: true,
+    standardScrollElements: "",
+    setHeights: false,
+    overflowScroll: true,
+    updateHash: true,
+    touchScroll:true,
+    before:function() {},
+    after:function() {},
+    afterResize:function() {},
+    afterRender:function() {}
+  });
+    </script>
+
+
+To wrzuæ do heada. Class ktory musisz dopisac to panel. Mozesz go dopsiaæ normalnie po spacji do juz istniejacego. Nie musi to byc koniecznie Div.
+np. <div> class="row text-center panel" </div>. Pierwszy panel musi byæ na .curtain. Bo przeskoczy ¿aluzje inaczej.

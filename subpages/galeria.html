@@ -7,7 +7,7 @@
     <meta name="description" content="Strona Firmy">
     <meta name="author" content="...">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Lusitana|Raleway" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Lusitana|Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
@@ -23,7 +23,7 @@
         <!--nav-->
         <nav class="navbar navbar-expand-md navbar-dark fixed-top slideInDown">
             <a class="navbar-brand" href="#">
-            <img src="../img/sprint.png" height="35"/>
+            <img src="../img/loggo.png" height="35"/>
         </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -57,11 +57,11 @@
                         <a class="nav-link" href="./blog.html"><i class="far fa-edit"></i> Smart-Okna</a>
                     </li>
                     <li class="nav-item dropdown dropdown-group2">
-                                <a class="nav-link dropdown-toggle dropdown-toggle2" href="#" id="okna-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle dropdown-toggle2" href="#" id="okna-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="far fa-building"></i> <span class="nav-text">Wizualizacja</span></a>
-                                <div class="dropdown-menu dropdown-menu2" aria-labelledby="okna-link">
-                                    <a class="dropdown-item" href="./wizualizacja/wizualizacjadrzwi.html"><i class="fas fa-arrow-right"></i>Drzwi</a>
-                                    <a class="dropdown-item" href="./wizualizacja/wizualizacjaokno.html"><i class="fas fa-arrow-right"></i>Okno</a>
+                        <div class="dropdown-menu dropdown-menu2" aria-labelledby="okna-link">
+                            <a class="dropdown-item" href="./wizualizacja/wizualizacjadrzwi.html"><i class="fas fa-arrow-right"></i>Drzwi</a>
+                            <a class="dropdown-item" href="./wizualizacja/wizualizacjaokno.html"><i class="fas fa-arrow-right"></i>Okno</a>
                         </div>
                     </li>
                 </ul>
@@ -75,212 +75,83 @@
         <div class="gallery-box">
             <div class="row">
                 <div class="col text-center">
-                <h1>Galeria poprzednich projektów</h1>
-            </div>
-           </div>     
-            <div class="row">
-                <!-- img list left -->
-                <div class="col-sm-2 gallery-list-left" id="slider-thumbs">
-                    <!-- img list -->
-                    <ul class="list-unstyled gallery-list list-inline">
-                        <!--linia-->
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-20">
-                            <img class="img-list" src="../img/img-gallery-carousel/(20).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-21">
-                            <img class="img-list" src="../img/img-gallery-carousel/(21).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-22">
-                            <img class="img-list" src="../img/img-gallery-carousel/(22).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-23">
-                            <img class="img-list" src="../img/img-gallery-carousel/(23).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-24">
-                            <img class="img-list" src="../img/img-gallery-carousel/(24).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-25">
-                            <img class="img-list" src="../img/img-gallery-carousel/(25).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-26">
-                            <img class="img-list" src="../img/img-gallery-carousel/(26).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-27">
-                            <img class="img-list" src="../img/img-gallery-carousel/(27).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-28">
-                            <img class="img-list" src="../img/img-gallery-carousel/(28).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-29">
-                            <img class="img-list" src="../img/img-gallery-carousel/(29).jpg"></a>
-                        </li>
-                        <!--linia-->
-                    </ul>
-                    <div class="scrollbar" id="style-3">
-                        <div class="force-overflow"></div>
-                    </div>
-                </div>
-                <!--       Carousel-->
-                <div class="col-sm-8" id="carousel-box">
-                    <button class="btn btn-outline-secondary btn-fullscreen" id="galleryModalTrigger" onclick="fullscreen()" data-toggle="modal" data-target="#galleryModal"><i class="fas fa-expand-arrows-alt"></i></button>
-                    <div class="carousel slide gallery-carousel" id="myCarousel">
-                        <!-- Carousel items -->
-                        <div class="carousel-inner rounded mt-4">
-
-                            <div class="active carousel-item" id="0" data-slide-number="0"><img class="img-carousel" src="../img/img-gallery-carousel/(0).jpg"></div>
-
-                            <div class="carousel-item" id="1" data-slide-number="1"><img src="../img/img-gallery-carousel/(1).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="2" data-slide-number="2"><img src="../img/img-gallery-carousel/(2).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="3" data-slide-number="3"><img src="../img/img-gallery-carousel/(3).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="4" data-slide-number="4"><img src="../img/img-gallery-carousel/(4).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="5" data-slide-number="5"><img src="../img/img-gallery-carousel/(5).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="6" data-slide-number="6"><img src="../img/img-gallery-carousel/(6).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="7" data-slide-number="7"><img src="../img/img-gallery-carousel/(7).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="8" data-slide-number="8"><img src="../img/img-gallery-carousel/(8).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="9" data-slide-number="9"><img src="../img/img-gallery-carousel/(9).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="10" data-slide-number="10"><img src="../img/img-gallery-carousel/(10).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="11" data-slide-number="11"><img src="../img/img-gallery-carousel/(11).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="12" data-slide-number="12"><img src="../img/img-gallery-carousel/(12).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="13" data-slide-number="13"><img src="../img/img-gallery-carousel/(13).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="14" data-slide-number="14"><img src="../img/img-gallery-carousel/(14).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="15" data-slide-number="15"><img src="../img/img-gallery-carousel/(15).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="16" data-slide-number="16"><img src="../img/img-gallery-carousel/(16).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="17" data-slide-number="17"><img src="../img/img-gallery-carousel/(17).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="18" data-slide-number="18"><img src="../img/img-gallery-carousel/(18).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="19" data-slide-number="19"><img src="../img/img-gallery-carousel/(19).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="20" data-slide-number="20"><img src="../img/img-gallery-carousel/(20).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="21" data-slide-number="21"><img src="../img/img-gallery-carousel/(21).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="22" data-slide-number="22"><img src="../img/img-gallery-carousel/(22).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="23" data-slide-number="23"><img src="../img/img-gallery-carousel/(23).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="24" data-slide-number="24"><img src="../img/img-gallery-carousel/(24).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="25" data-slide-number="25"><img src="../img/img-gallery-carousel/(25).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="26" data-slide-number="26"><img src="../img/img-gallery-carousel/(26).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="27" data-slide-number="27"><img src="../img/img-gallery-carousel/(27).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="28" data-slide-number="28"><img src="../img/img-gallery-carousel/(28).jpg" alt="" class="img-carousel"></div>
-                            <div class="carousel-item" id="29" data-slide-number="29"><img src="../img/img-gallery-carousel/(29).jpg" alt="" class="img-carousel"></div>
-
-
-                        </div>
-                    </div>
-                    <!-- /Carousel items -->
-                    <!-- Left and right controls -->
-                    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
-    				<span class="carousel-nav-prev carousel-control-prev-icon"></span>
-  					</a>
-                    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
-    				<span class="carousel-nav-next carousel-control-next-icon"></span>
-  					</a>
-
-                </div>
-                <div class="col-sm-2  gallery-list-right" id="slider-thumbs">
-                    <!-- img list right -->
-                    <ul class="list-unstyled gallery-list list-inline ">
-                        <!--linia-->
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-0">
-                            <img class="img-list" src="../img/img-gallery-carousel/(0).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-1">
-                            <img class="img-list" src="../img/img-gallery-carousel/(1).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-2">
-                            <img class="img-list" src="../img/img-gallery-carousel/(2).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-3">
-                            <img class="img-list" src="../img/img-gallery-carousel/(3).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-4">
-                            <img class="img-list" src="../img/img-gallery-carousel/(4).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-5">
-                            <img class="img-list" src="../img/img-gallery-carousel/(5).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-6">
-                            <img class="img-list" src="../img/img-gallery-carousel/(6).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-7">
-                            <img class="img-list" src="../img/img-gallery-carousel/(7).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-8">
-                            <img class="img-list" src="../img/img-gallery-carousel/(8).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-9">
-                            <img class="img-list" src="../img/img-gallery-carousel/(9).jpg"></a>
-                        </li>
-                        <!--linia-->
-                    </ul>
+                    <h1 class="gallery-header">Nasze najlepsze projekty</h1>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-12 gallery-list-bot" id="slider-thumbs">
-                    <!-- img list bot-->
-                    <ul class="list-unstyled gallery-list list-inline">
-                        <!--linia-->
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-10">
-                            <img class="img-list" src="../img/img-gallery-carousel/(10).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-11">
-                            <img class="img-list" src="../img/img-gallery-carousel/(11).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-12">
-                            <img class="img-list" src="../img/img-gallery-carousel/(12).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-13">
-                            <img class="img-list" src="../img/img-gallery-carousel/(13).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-14">
-                            <img class="img-list" src="../img/img-gallery-carousel/(14).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-15">
-                            <img class="img-list" src="../img/img-gallery-carousel/(15).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-16">
-                            <img class="img-list" src="../img/img-gallery-carousel/(16).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-17">
-                            <img class="img-list" src="../img/img-gallery-carousel/(17).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-18">
-                            <img class="img-list" src="../img/img-gallery-carousel/(18).jpg"></a>
-                        </li>
-                        <li class="list-inline-item mt-2">
-                            <a class="thumbnail" id="carousel-selector-19">
-                            <img class="img-list" src="../img/img-gallery-carousel/(19).jpg"></a>
-                        </li>
-                        <!--linia-->
-                    </ul>
-
+            <div class="row gallery-list first-row">
+                <div class="col-md-6">
+                    <a class="thumbnail" id="0">
+                            <img class="img-fluid img-main" src="../img/img-gallery-carousel/(0).jpg">
+                            </a>
+                </div>
+                <div class="col-md-3 list-img-medium">
+                    <a class="thumbnail" id="1">
+                            <img class="img-fluid" src="../img/img-gallery-carousel/(1).jpg">
+                            </a>
+                    <a class="thumbnail" id="carousel-selector-17">
+                            <img class="img-fluid mt-1" src="../img/img-gallery-carousel/(2).jpg">
+                            </a>
+                </div>
+                <div class="col-md-3 list-img-medium">
+                    <a class="thumbnail" id="carousel-selector-17">
+                            <img class="img-fluid" src="../img/img-gallery-carousel/(3).jpg">
+                            </a>
+                    <a class="thumbnail" id="carousel-selector-17">
+                            <img class="img-fluid mt-1" src="../img/img-gallery-carousel/(4).jpg">
+                            </a>
                 </div>
             </div>
-            <div class="row">
+            <div class="row gallery-list mt-3 second-row">
+                <div class="col-md-2 list-img-small">
+                    <a class="thumbnail" id="carousel-selector-17">
+                            <img class="img-fluid" src="../img/img-gallery-carousel/(5).jpg">
+                            </a>
+                </div>
+                <div class="col-md-2 list-img-small">
+                    <a class="thumbnail" id="carousel-selector-17">
+                            <img class="img-fluid" src="../img/img-gallery-carousel/(6).jpg">
+                            </a>
+                </div>
+                <div class="col-md-2 list-img-small">
+                    <a class="thumbnail" id="carousel-selector-17">
+                            <img class="img-fluid" src="../img/img-gallery-carousel/(7).jpg">
+                            </a>
+                </div>
+                <div class="col-md-2 list-img-small">
+                    <a class="thumbnail" id="carousel-selector-17">
+                            <img class="img-fluid" src="../img/img-gallery-carousel/(8).jpg">
+                            </a>
+                </div>
+                <div class="col-md-2 list-img-small">
+                    <a class="thumbnail" id="carousel-selector-17">
+                            <img class="img-fluid" src="../img/img-gallery-carousel/(9).jpg">
+                            </a>
+                </div>
+                <div class="col-md-2 list-img-small">
+                    <a class="thumbnail" id="carousel-selector-17">
+                            <img class="img-fluid" src="../img/img-gallery-carousel/(10).jpg">
+                            </a>
+                </div>
+            </div>
+            <div class="row gallery-list mt-3 third-row">
+                <div class="col-md-4">
+                    <a class="thumbnail" id="carousel-selector-17">
+                            <img class="img-fluid" src="../img/img-gallery-carousel/(11).jpg">
+                            </a>
+                </div>
+                <div class="col-md-4">
+                    <a class="thumbnail" id="carousel-selector-17">
+                            <img class="img-fluid" src="../img/img-gallery-carousel/(12).jpg">
+                            </a>
+                </div>
+                <div class="col-md-4">
+                    <a class="thumbnail" id="carousel-selector-17">
+                            <img class="img-fluid" src="../img/img-gallery-carousel/(13).jpg">
+                            </a>
+                </div>
+            </div>
+        </div>
+         <div class="row">
                 <div class="col-sm-12 gallery-list-rwd" id="slider-thumbs">
                     <!-- img list bot-->
                     <ul class="list-unstyled gallery-list list-inline">
@@ -413,21 +284,21 @@
 
                 </div>
             </div>
-        </div>
+    </div>
 
-        <!-- Button to Open the Modal -->
-        <button type="button" class="btn btn-success btn-modal" data-toggle="modal" data-target="#wizytaModal">
+    <!-- Button to Open the Modal -->
+    <button type="button" class="btn btn-success btn-modal" data-toggle="modal" data-target="#wizytaModal">
  			 Umów wizytę!
 			</button>
-        <!--sociale-->
-        <div class="social">
-            <ul>
-                <li class="social-fb"><a href="#"><span class="social-text">Facebook</span><i class="social-icon fab fa-facebook-square"></i></a></li>
-                <li class="social-gp"><a href="#"><span class="social-text">Google +</span><i class="social-icon fab fa-google-plus"></i></a></li>
-                <li class="social-ig"><a href="#"><span class="social-text">Instagram</span><i class="social-icon fab fa-instagram"></i></a></li>
-            </ul>
-        </div>
+    <!--sociale-->
+    <div class="social">
+        <ul>
+            <li class="social-fb"><a href="#"><span class="social-text">Facebook</span><i class="social-icon fab fa-facebook-square"></i></a></li>
+            <li class="social-gp"><a href="#"><span class="social-text">Google +</span><i class="social-icon fab fa-google-plus"></i></a></li>
+            <li class="social-ig"><a href="#"><span class="social-text">Instagram</span><i class="social-icon fab fa-instagram"></i></a></li>
+        </ul>
     </div>
+
     <!--container-->
     <!-- Modal Wizyty -->
     <div class="modal fade" id="wizytaModal">
@@ -508,7 +379,7 @@
 
 
 
-<!--    <script type="text/javascript" src="../js/jquery.min.js"></script>-->
+    <!--    <script type="text/javascript" src="../js/jquery.min.js"></script>-->
     <script type="text/javascript" src="../js/popper.min.js"></script>
     <script type="text/javascript" src="../js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../js/app.js"></script>
