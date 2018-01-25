@@ -30,7 +30,10 @@ background-image: url("https://www.transparenttextures.com/patterns/always-grey.
 .dropdown-menu{
     margin-top: -3px
 }
-
+a[class='dropdown-item']:hover{
+    color:snow!important;
+    background-color:#171717!important;    
+}
 
 /*--image styles-*/
 .por {
