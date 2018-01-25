@@ -10,10 +10,15 @@ background-image: url("https://www.transparenttextures.com/patterns/always-grey.
 }
 
 .container-fluid {
-    margin-top: 3vh;
+    margin-top: 9vh;
 
 }
 
+@media only screen and (max-width: 390px) {
+    .container-fluid {
+    margin-top: 16vh;
+
+    }}
 
 .navbar {
     background-color: #171717;
@@ -784,52 +789,3 @@ modal-dialog {
     transform: rotate(0deg);
 }
 
-/*Smart okno*/
-
-#s1{
-    position: absolute;
-    z-index: 0;
-    width: 100%;
-    height: auto;
-}
-
-#s2{
-    position: absolute;
-    display: none;
-    width: 100%;
-    height: auto;
-    z-index: 1;
-
-}
-
-#s3{
-    position: absolute;
-    display: none;
-    width: 100%;
-    height: auto;
-    z-index: 1;
-}
-
-#s4{
-    position: absolute;
-    display: none;
-    width: 100%;
-    height: auto;
-    z-index: 1;
-}
-
-#s5{
-    position: absolute;
-    display: none;
-    width: 100%;
-    height: auto;
-    z-index: 1;
-}
-
-#s6{
-    position: absolute;
-    display: none;
-    width: 100%;
-    height: auto;
-    z-index: 1;
-}
