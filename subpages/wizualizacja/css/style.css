@@ -1,15 +1,28 @@
-.container{
-    background: rgba(60, 60, 60, 0.99);
-    box-shadow: 0px 0px 30px 60px rgba(60, 60, 60, 0.99);
-    min-height: 100vh;
-    margin-top: 3%;
-    margin-bottom: 5%;
+body{
+ background: -moz-linear-gradient(left, rgba(2,55,100,1) 0%, rgba(11,173,218,0.32) 25%, rgba(11,173,218,0) 37%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(2,55,100,1) 0%,rgba(11,173,218,0.32) 25%,rgba(11,173,218,0) 37%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(2,55,100,1) 0%,rgba(11,173,218,0.32) 25%,rgba(11,173,218,0) 37%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
+
+    .bgo1{
+        position: absolute;
+        z-index: -3;
+        top: 5%;
+        right: 0%;
+    }
+    
+     .bgo2{
+        position: absolute;
+         z-index: -3;
+         bottom: 0%;
+        right:0%; 
+    }
+
 
 .sciana{
     position: absolute;
     width: 75%;
-    z-index: -1;
+    z-index: -2;
     background-color: seashell;
     border-left: black 6px solid;
     border-bottom: black 6px solid;
@@ -18,9 +31,9 @@
 .podloga{
     position: absolute;
     width: 100%;
-    z-index: 1;
+    z-index: -1;
      border-left: black 6px solid;
-    border-bottom: black 6px solid;
+    border-bottom: #023764 15px solid;
 }
 
 .drzwi{
@@ -28,7 +41,7 @@
     margin-top: 2.4%;
     left: 20%;
     width: 35%;
-    z-index: 2;
+    z-index: 0;
     background-color: burlywood;
     box-shadow: 0px 0px 10px dimgray;
   
@@ -41,7 +54,7 @@
     left: 58%;
     height: auto;
     width:30%;
-    z-index: 2;
+    z-index: 0;
     
 }
 
@@ -51,7 +64,7 @@
     left: 2%;
     height: auto;
     width:22%;
-    z-index: 2;
+    z-index: 0;
     
 }
     
@@ -63,7 +76,7 @@
     background-color: burlywood;
     box-shadow: 0px 0px 10px dimgray;
     width: 50%;
-    z-index: 2;
+    z-index: 1;
 
    
 
@@ -90,7 +103,7 @@
     background-color: burlywood;
     box-shadow: 0px 0px 10px dimgray;
     width: 50%;
-    z-index: 2;
+    z-index: 1;
     display: none;
     
 }
@@ -102,7 +115,7 @@
     background-color: burlywood;
     box-shadow: 0px 0px 10px dimgray;
     width: 23.5%;
-    z-index: 3;
+    z-index: 2;
 }
 
 .lroleta{
@@ -112,7 +125,7 @@
     background-color: burlywood;
     box-shadow: 0px 0px 10px dimgray;
     width: 15%;
-    z-index: 3;
+    z-index: 2;
 }
 
 
@@ -125,11 +138,20 @@
 }
 
 .btn-secondary{
-    margin:  2px;
+    margin:  2px ;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(248,248,248, 1);
+    border: none;
+    cursor: pointer;
+}
+
+.btn-secondary:hover{
+   box-shadow: 0px 0px 20px inset rgba(255,255,255, 1);
 }
 
 .card{
-    background: rgba(00, 00, 00, 0.2);
+    background: rgba(200,200,200, 0.5);
 }
 #w990{
     display: none;
@@ -158,6 +180,7 @@
     h6{
         font-size: 10px;
     }
+}
 
 @media only screen and (max-width: 768px) {
     .drzwi {
@@ -192,3 +215,4 @@
     }
 }
 
+  
