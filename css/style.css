@@ -1,17 +1,19 @@
+html{
+     padding-bottom: 100px!important;
+}
 body {
     /*
-
 background-color: #ffffff;
 background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
 */
     background-color: #f8f8f8;
-    
     background-size: cover;
+   
 }
 
 .container-fluid {
     margin-top: 9vh;
-
+    
 }
 
 @media only screen and (max-width: 390px) {
@@ -167,7 +169,6 @@ h1 {
 h2 {
     font-family: 'Lato Black', sans-serif;;
     color: #171717;
-      margin-left: -100px;
     margin-bottom: 27px;
 
 }
@@ -190,7 +191,6 @@ h4 {
 .p1 {
     font-family: 'Lato Light' ;
     color: #171717;
-    margin-left: -100px;
 
 }
 
@@ -531,11 +531,15 @@ modal-dialog {
 }
 
 .mark-ok {
+    position: absolute;
+    transform: translateY(8px);
     color: #14ad35;
 
 }
 
 .mark-wrong {
+    position: absolute;
+    transform: translateY(8px);
     color: #ad142e;
 }
 
@@ -545,7 +549,7 @@ modal-dialog {
 
 .comment {
     position: absolute;
-    transform: translateY(5px);
+    transform: translateY(-10px);
 }
 
 /*Collapsable tables*/

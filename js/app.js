@@ -50,7 +50,7 @@ function formValidate() {
         $(id).removeClass("correct");
         $(id).addClass("wrong");
         $(id).next().remove('.mark');
-        $(id).after('<i class="fas fa-times mark mark-wrong" ></i> <span class="mark mark-wrong comment">Pole musi być wypełnione!</span>');
+        $(id).after('<i class="fas fa-times mark mark-wrong" ></i>');
 
     } else if ($(id).val() != "") {
         $(id).removeClass("wrong");
